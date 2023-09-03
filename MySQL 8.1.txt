@@ -1,0 +1,35 @@
+******************************************************************************
+                            INSTALAÇÃO DO MYSQL 8.1
+******************************************************************************
+
+1 - BAIXAR E DESCOMPACTAR OS ARQUIVOS DO MYSQL EM "C:\mysql"
+
+2 - DENTRO DA PASTA DA "mysql", CRIAR 2 SUB-PASTAS
+    * "logs"
+    * "data"
+
+3 - NA PASTA "C:\mysql" COLOCAR PERMISSÃO TOTAL DE LEITURA E ESCRITA
+
+4 - CRIAR O ARQUIVO "C:\mysql\my.ini" PARA CONFIGURAÇÃO DO MYSQL
+[mysqld]
+basedir = "C:\\mysql"
+datadir = "C:\\mysql\\data"
+port=3306
+character-set-server=utf8
+default-storage-engine=INNODB
+log-output=FILE
+general-log=1
+general_log_file="C:\\mysql\\logs\\mysql.log"
+slow-query-log=1
+slow_query_log_file="C:\\mysql\\logs\\mysql-slow.log"
+long_query_time=10
+log-error="C:\\mysql\\logs\\mysql.err"
+max_connections=50
+
+5 - EXECUTAR O COMANDO VIA CMD COMO ADMINISTRADOR DENTRO DA PASTA "C:\mysql"
+    * "mysqld --defaults-file=C:\mysql\my.ini --initialize-insecure"
+
+6 - EXECUTAR O COMANDO VIA CMD COMO ADMINISTRADOR DENTRO DA PASTA "C:\mysql"
+    * "mysqld --install MySQL81 --defaults-file=C:\mysql\my.ini"
+
+7 - INICIALIZAR O SERVIÇO DO MYSQL NO WINDOWS

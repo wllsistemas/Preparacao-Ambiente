@@ -1,0 +1,17 @@
+******************************************************************************
+                            INSTALAÇÃO DO APACHE
+******************************************************************************
+1 - BAIXAR E DESCOMPACTAR EM "C:\apache\" O SERVIDOR WEB APACHE
+
+2 - EDITAR O ARQUIVO "C:\apache\conf\httpd.conf"
+    * "Define SRVROOT "c:/apache""
+    * "Listen 8888"
+    * "ServerName localhost:8888"
+
+3 - ABRIR O CMD COMO ADMINISTRADOR E EXECUTAR A INSTALAÇÃO DO SERVIÇO
+    * "C:\apache\bin\httpd.exe -k install"
+
+4 - INICIAR O SERVIÇO VIA CMD
+    * "C:\apache\bin\httpd.exe -k start"
+
+

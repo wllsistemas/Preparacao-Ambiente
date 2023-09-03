@@ -1,0 +1,19 @@
+******************************************************************************
+                            INSTALAÇÃO DO PHP
+******************************************************************************
+1 - BAIXAR E DESCOMPACTAR O PHP 8.2 (THREAD SAFE) NA PASTA "C:\apache\php82" 
+
+2 - RENOMEAR O ARQUIVO "php.ini-production" PARA "php.ini"
+
+3 - DESCOMENTAR A LINHA COM "extension_dir = "ext"" no arquivo "php.ini"
+
+4 - EDITAR O ARQUIVO "C:\apache\conf\httpd.conf" E ADICIONAR AS LINHAS ABAIXO
+   - PHPIniDir "C:/apache/php82"
+   - LoadModule php_module "C:/apache/php82/php8apache2_4.dll"
+   - AddType application/x-httpd-php .php
+
+5 - EDITAR O ARQUIVO "C:\apache\conf\httpd.conf" E DEIXAR IGUAL AO TRECHO ABAIXO
+    <IfModule dir_module>
+      DirectoryIndex index.php index.html
+    </IfModule>
+

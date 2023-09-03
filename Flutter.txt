@@ -1,0 +1,23 @@
+******************************************************************************
+                            INSTALAÇÃO E CONFIGURAÇÃO FLUTTER
+******************************************************************************
+1 - BAIXAR E INSTALAÇÃO O GIT (NEXT...NEXT..FINISHED)
+
+2 - BAIXAR E DESCOMPACTAR O SDK DO FLUTTER EM "C:\"
+
+3 - CONFIGURAR O PATH DA PASTA "BIN" NAS VARIÁVEIS DE AMBIENTE
+
+4 - BAIXAR E INSTALAR O ANDROID STUDIO
+
+5 - BAIXAR OS PACOTES ADICIONAIS NA ABA SDK Tools
+    * "Android SDK Command-line Tools (latest)"
+    * "Google USB Driver"
+
+6 - RODAR O COMANDO "flutter doctor --android-licenses" NO PROMPT
+
+7 - BAIXAR E INSTALAR O VISUAL STUDIO CODE
+
+8 - INSTALAR A EXTENSÃO "FLUTTER" NO VS CODE
+
+DICA BÔNUS: O emulador é muito pesado e lento, por isso a sugestão é realizar o debug do App direto no aparelho celular Android. 
+Para isso é necessário habilitar no aparelho celular "Opções do desenvolvedor" o caminho pode variar conforme marca e o modelo do celular.
