@@ -1,0 +1,15 @@
+******************************************************************************
+                            INSTALAÇÃO DO VYSOR
+******************************************************************************
+1 - BAIXAR E INSTALAR O VYSOR NO COMPUTADOR
+
+2 - BAIXAR E INSTALAR O UTILITÁRIO UniversalAdbDriverSetup.msi
+
+3 - BAIXAR E INSTALAR O APLICATIVO VYSOR NO APARELHO CELULAR
+
+4 - HABILITAR "OPÇÕES DO DESENVOLVEDOR" NO APARELHO CELULAR
+
+5 - HABILITAR "DEPURAÇÃO USB" NO APARELHO CELULAR
+
+6 - ABRIR O VYSOR NO COMPUTADOR COM O CABO USB PLUGADO NO CELULAR
+
