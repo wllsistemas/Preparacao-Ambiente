@@ -15,9 +15,13 @@
 
 6 - RODAR O COMANDO "flutter doctor --android-licenses" NO PROMPT
 
-7 - BAIXAR E INSTALAR O VISUAL STUDIO CODE
+7 - INSTALAR O GOOGLE CHROME
 
-8 - INSTALAR A EXTENSÃO "FLUTTER" NO VS CODE
+8 - BAIXAR E INSTALAR O VISUAL STUDIO CODE
+
+9 - INSTALAR A EXTENSÃO "FLUTTER" NO VS CODE
+
+LINK NO YOUTUBE COM INSTRUÇÕES: https://youtu.be/-iiZXxs6QdU
 
 DICA BÔNUS: O emulador é muito pesado e lento, por isso a sugestão é realizar o debug do App direto no aparelho celular Android. 
 Para isso é necessário habilitar no aparelho celular "Opções do desenvolvedor" o caminho pode variar conforme marca e o modelo do celular.
